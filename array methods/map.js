@@ -12,5 +12,16 @@ const products = [
   },
 ];
 // array map methods******
-const result = products.map((product) => product.name);
-console.log(result);
+// const result = products.map((product) => product.name);
+// console.log(result);
+
+// array forEach methods *****
+// products.forEach((product) => console.log(product));
+
+// array filter methods ******
+
+// const result = products.filter((product) => product.brand === "xiaomi");
+// console.log(result);
+
+// const single = products.filter((product) => product.id !== 2);
+// console.log(single);
