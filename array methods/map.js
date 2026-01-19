@@ -26,13 +26,13 @@ const products = [
 // const single = products.filter((product) => product.id !== 2);
 // console.log(single);
 
-// array find methods *****it only find 1st which match this condition
+// array find methods *****it only find 1st which match this condition*****
 
-const need = products.find((product) => product.name === "samsung26Ultra");
-console.log(need);
+// const need = products.find((product) => product.name === "samsung26Ultra");
+// console.log(need);
 
-const result = products.find((product) => product.id === 3);
-console.log(result);
+// const result = products.find((product) => product.id === 3);
+// console.log(result);
 
-const samsung = products.find((product) => product.brand === "samsung");
-console.log(samsung);
+// const samsung = products.find((product) => product.brand === "samsung");
+// console.log(samsung);
