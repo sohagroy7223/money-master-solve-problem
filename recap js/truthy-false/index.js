@@ -6,3 +6,12 @@ const hideActive = () => console.log("hide user");
 
 isActive && showActive();
 isActive || hideActive();
+
+const name = ""; //false
+const email = " "; //true
+
+if (name) {
+  console.log(true);
+} else {
+  console.log(false);
+}
